@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = 'Zack Soliman'
 SITENAME = 'Exponential Divergence'
@@ -8,6 +9,7 @@ SITEURL = ''
 
 PATH = 'content'
 THEME = 'themes/voce'
+PLUGIN_PATHS = os.path.join(THEME, "plugins")
 TIMEZONE = 'America/Montreal'
 
 DEFAULT_LANG = 'en'
